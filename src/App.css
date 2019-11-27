@@ -1,0 +1,47 @@
+#mainhead{
+    color: black;
+    font-size: x-large;
+    padding-left: 200px;
+    margin-top: 50px;
+    text-align: left;
+}
+button[class*=btn] {
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.reload{
+    text-align: center;
+    padding: 10px;
+}
+#notific{
+    text-align: center;
+}
+.reload-btn{
+    background-color: lightgray;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.close-btn{
+    background-color: lightgray;
+    width: 20px;
+    height: 20px;
+    margin-left: 80px;
+}
+.minus-btn {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3px;
+}
+.plus-btn {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+#maindiv{
+    background-color: white;
+    display: flex;
+}

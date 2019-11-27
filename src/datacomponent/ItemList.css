@@ -1,0 +1,116 @@
+#cards{
+    border-color: black;
+    margin-left: 200px;
+    margin-right: 50px;
+    display: flex;
+    margin-top: 7px;
+}
+div.borderdiv{
+    border-style: groove;
+    padding: 5px;
+}
+.spans{
+    padding: 5px;
+}
+#maindiv{
+    background-color: white;
+    display: flex;
+}
+#iitem{
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.head1{
+    margin-right: 120px;
+}
+.head2{
+    padding-left: 50px;
+}
+.head3{
+    padding-left: 65px;
+    padding-right: 30px;
+}
+.texthead{
+    font-family: "Baskerville Old Face";
+    padding-left: 6px;
+    color: black;
+    font-size: x-large;
+}
+#surrcount{
+    border-style: groove;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#totaldiv{
+    padding: 5px;
+    display: flex;
+    font-size: small;
+}
+.divbc{
+    background-color: lightgray;
+}
+hr.tablehr{
+    display: block;
+    margin-left: 200px;
+    margin-right: 50px;
+    border-style: inset;
+    border-width: 1px;
+}
+hr {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.right{
+    margin-left: auto;
+}
+p{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+#i{
+    width: 20px;
+    height: 20px;
+}
+.wrapper{
+    overflow: hidden;
+}
+#subdivleft{
+    display: inline;
+    float:left;
+    min-height: 200px;
+}
+#subdivright{
+    border-radius: 5px;
+    border-style: outset;
+    width: 300px;
+    height: 170px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    min-height: 120px;
+}
+.str{
+    font-weight: bold;
+}
+#imgs{
+    margin-right: 20px;
+    width: 100px;
+    height: 150px;
+}
+@media screen and (max-width: 400px) {
+    #subdivleft {
+        float: none;
+        margin-right:0;
+        width:auto;
+        border:0;
+        border-bottom:2px solid #000;
+    }
+}
